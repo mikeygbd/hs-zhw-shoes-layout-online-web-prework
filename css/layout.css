@@ -24,4 +24,33 @@
 
 /* Posititoning Classes */
 
+.milk_text {
+  position: relative;
+  left: 12.4%;
+}
 
+.col-1 {
+  float: left;
+  width: 32%;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+}
+
+.holiday {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left:0%;
+  margin-bottom: 2%;
+}
